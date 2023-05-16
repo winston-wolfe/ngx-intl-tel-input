@@ -1,6 +1,6 @@
 {
-  "name": "ngx-intl-tel-input-app",
-  "version": "0.0.0",
+  "name": "@winston-wolfe/ngx-intl-tel-input-app",
+  "version": "0.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -18,7 +18,7 @@
     "package": "npm run build_lib && npm run npm_pack",
     "postinstall": "ngcc"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "8.x - 14.x",
     "@angular/common": "8.x - 14.x",
@@ -33,7 +33,7 @@
     "google-libphonenumber": "^3.2.3",
     "intl-tel-input": "^17.0.3",
     "jquery": "^3.5.0",
-    "ngx-bootstrap": "^10.0.0",
+    "ngx-bootstrap": "9.0.0",
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
@@ -67,9 +67,19 @@
     "typescript": "^4.5.4",
     "webpack-bundle-analyzer": "^3.9.0"
   },
-  "peerDependencies": {
-    "@angular/common": "8.x - 13.x",
-    "@angular/core": "8.x - 13.x",
-    "@angular/forms": "8.x - 13.x"
-  }
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "description": "[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winston-wolfe/ngx-intl-tel-input.git"
+  },
+  "author": "winston-wolfe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/winston-wolfe/ngx-intl-tel-input/issues"
+  },
+  "homepage": "https://github.com/winston-wolfe/ngx-intl-tel-input#readme"
 }
